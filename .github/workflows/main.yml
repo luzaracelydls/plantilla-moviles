@@ -15,6 +15,6 @@ jobs:
           npm run build
 
       - name: Deploy
-        uses: luzaracelydls/plantilla-moviles@latest
+        uses: luzaracelydls/plantilla-moviles@v1
         with:
           folder: .
