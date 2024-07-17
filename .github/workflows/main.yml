@@ -15,6 +15,6 @@ jobs:
           npm run build
 
       - name: Deploy
-        uses: luzaracelydls/github-pages-deploy-action@v4
+        uses: luzaracelydls/plantilla-moviles@v4
         with:
           folder: .
